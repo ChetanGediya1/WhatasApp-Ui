@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/txtImages"
+            android:layout_width="55dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            app:civ_border_width="0.3dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_launcher_background"
+          />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txtImages"
+        android:layout_marginLeft="30dp"
+     android:text="Chetan Gediya"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtSTD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@id/txtImages"
+
+android:layout_marginTop="4dp"
+        android:layout_below="@id/txtName"
+        android:textColor="#454343"
+        android:text="Std = 10"
+  />
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#373737"
+        android:text="09:15 AM"
+      />
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
